@@ -6,17 +6,32 @@ false.
 For example, uniqueCharacters(“apple”) should return false.
 */
 
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
 public class Main {
-    static  boolean uniqueCharacters(String word) {
-        String isFalse = "false";
-        if ( word == isFalse ) {
-            return true;
-        } else {
+    static boolean uniqueCharacters(String str) {
+        Set<Character> characters = new HashSet<>();
+        if (str.isEmpty()) {
             return false;
         }
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if (characters.contains(c)) {
+                return false;
+            }
+            characters.add(c);
+        }
+        return true;
     }
     public static void main(String[] args) {
-        boolean var = uniqueCharacters("False");
-        System.out.println(var);
+        Scanner scn = new Scanner(System.in);
+        System.out.println("Check the word\n");
+        String str = scn.next();
+        boolean hasUniqueChars = uniqueCharacters(str);
+        System.out.println("Does the string \"" + str + "\" have all unique characters? " + hasUniqueChars );
+
+        scn.close();
     }
 }
