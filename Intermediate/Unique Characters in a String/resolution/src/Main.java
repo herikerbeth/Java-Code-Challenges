@@ -26,7 +26,7 @@ public class Main {
             return false;
         }
 
-        // Verifica se a string está vazia e retorna false
+        // Percorre cada caractere da string
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
             // Se o caractere já estiver no conjunto, retorna false
