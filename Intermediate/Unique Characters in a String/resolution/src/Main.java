@@ -12,38 +12,38 @@ import java.util.Set;
 
 public class Main {
     /**
-     * Verifica se uma string possui todos os caracteres únicos.
+     * Checks if a string has all unique characters.
      *
-     * @param str a string a ser verificada
-     * @return true se todos os caracteres forem únicos, caso contrário, false
+     * @param str the string to be checked
+     * @return true if all characters are unique, otherwise false
      */
     static boolean uniqueCharacters(String str) {
-        // Cria um conjunto para armazenar os caracteres
+        // Create a set to store the characters
         Set<Character> characters = new HashSet<>();
 
-        // Verifica se a string está vazia e retorna false
+        // Check if the string is empty and return false
         if (str.isEmpty()) {
             return false;
         }
 
-        // Percorre cada caractere da string
+        // Iterate over each character in the string
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
-            // Se o caractere já estiver no conjunto, retorna false
+            // If the character is already in the set, return false
             if (characters.contains(c)) {
                 return false;
             }
-            // Adiciona o caractere ao conjunto
+            // Add the character to the set
             characters.add(c);
         }
-        // Se nenhum caractere repetido foi encontrado, retorna true
+        // If no duplicate character was found, return true
         return true;
     }
 
     /**
-     * Função principal que solicita ao usuário uma palavra e verifica se ela possui todos os caracteres únicos.
+     * Main function that prompts the user for a word and checks if it has all unique characters.
      *
-     * @param args argumentos da linha de comando (não utilizados)
+     * @param args command-line arguments (not used)
      */
     public static void main(String[] args) {
 
