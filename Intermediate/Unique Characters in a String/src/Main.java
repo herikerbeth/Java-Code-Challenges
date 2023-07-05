@@ -47,13 +47,26 @@ public class Main {
      */
     public static void main(String[] args) {
 
-        try (Scanner scn = new Scanner(System.in); scn) {
-            System.out.println("Check the word\n");
-            String str = scn.next();
-            boolean hasUniqueChars = uniqueCharacters(str);
-            System.out.println("Does the string \"" + str + "\" have all unique characters? " + hasUniqueChars);
-        } catch (IllegalArgumentException e) {
-            System.out.println("Invalid input: " + e.getMessage());
+        Scanner scn = new Scanner(System.in);
+
+        String str = "";
+        boolean isValidInput = false;
+
+        while (!isValidInput) {
+            try {
+                System.out.println("Enter a word:");
+                str = scn.nextLine();
+                // Check if the string contains digits
+                if (str.matches(".*\\d.*")) {
+                    throw new NumberFormatException("Invalid input: String contains digits.");
+                } else {
+                    isValidInput = true;
+                }
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input: " + e.getMessage());
+            }
         }
+        boolean hasUniqueChars = uniqueCharacters(str);
+        System.out.println("Does the string \"" + str + "\" have all unique characters? " + hasUniqueChars);
     }
 }

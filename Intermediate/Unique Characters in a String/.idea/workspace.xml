@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ec67509-3d4b-48a5-85ca-1fc942aea25d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unique Characters in a String.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unique Characters in a String.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unique Characters in a String.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unique Characters in a String/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unique Characters in a String/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolution/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolution/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolution/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolution/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolution/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolution/resolution.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resolution/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2SANg8lAFmAapkVXUxB3dGvZkX0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "onboarding.tips.debug.path": "/home/herik/Java-Code-Challengs/Intermediate/Unique Characters in a String/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ec67509-3d4b-48a5-85ca-1fc942aea25d" name="Changes" comment="" />
+      <created>1688585533712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688585533712</updated>
+    </task>
+    <servers />
+  </component>
+</project>
